@@ -1,5 +1,4 @@
 * {
-    font-family: 'Familjen Grotesk', sans-serif;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -61,6 +60,21 @@ section {
 
 h2 {
     padding: 3rem;
+}
+
+.gris {
+    color: rgb(94, 94, 94);
+}
+
+.boton {
+    margin-top: 1em;
+    align-self: flex-start;
+    background-color: rgb(17,152,255);
+    border-radius: 0.8em;
+    font-size: 0.7em;
+    border-style: none;
+    cursor: none;
+    color: white;
 }
 
 #presentacion, #trabajos, #educacion, #habilidades, #hobbies  {
