@@ -7,7 +7,7 @@ header {
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: center;  
+    justify-content: space-evenly;  
     align-items: center;
     background: rgb(139,78,240);
     background: linear-gradient(90deg, rgba(139,78,240,1) 0%, rgba(49,167,247,1) 100%);
@@ -20,10 +20,6 @@ header {
     letter-spacing: 0.1rem;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
-}
-
-header nav {
-    margin:0 7rem 0;
 }
 
 header nav a {
@@ -53,6 +49,20 @@ a:link, :visited, :hover, :active {
     text-align: center;
 }
 
+#contratame {
+    border: 1px solid rgb(17,152,255);
+    background-color: transparent;
+    color: rgb(17,152,255);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#contratame:hover {
+    background-color: rgb(17,152,255);
+    color: white;
+}
+
 section {
     width: 50%;
     margin: 0 auto 0;
@@ -73,7 +83,7 @@ h2 {
     border-radius: 0.8em;
     font-size: 0.7em;
     border-style: none;
-    cursor: none;
+    cursor: default;
     color: white;
 }
 
@@ -96,6 +106,10 @@ section img {
     padding: 1rem 0 1rem 0;
 }
 
+.primerExterno {
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
 .internos {
     display: flex;
     justify-content: space-between;
@@ -111,6 +125,14 @@ section .externos p {
     box-shadow: 1px 1px 13px 1px rgba(163,163,163,0.75);
 }
 
+#skills {
+    min-width: 228px;
+}
+
+#divHabilidades{
+    padding-top: 1.2rem;
+}
+
 #hobbies p {
     margin-bottom: 4rem;
     text-align: center;
@@ -124,6 +146,17 @@ footer {
 }
 
 footer i {
-    height: 1rem;
-    padding: 0.3rem;
+    font-size: 1.3rem;
+    margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+    padding: 0.5rem;
+    color:white;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+}
+
+.fa-linkedin-in {
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+}
+.fa-tumblr {
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
 }
